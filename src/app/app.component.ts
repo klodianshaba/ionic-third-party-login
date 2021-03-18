@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { GooglePlus } from '@ionic-native/google-plus/ngx';
-
+import {environment} from '../environments/environment';
+const googleWebClientId = environment.googleWebClientId;
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
