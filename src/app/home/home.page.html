@@ -14,7 +14,23 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
+    <strong>Ready to login with google?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <br>
+    <div (click)="googleSignup()">
+      Login with google updated
+    </div><br><br>
+
+    <div (click)="signOut()">
+      Sing out
+    </div><br><br>
+
+    <div (click)="refreshToken()">
+      Refresh token
+    </div><br><br>
+
+    <div *ngIf="user">
+      {{user.givenName}} {{user.familyName}}
+    </div>
   </div>
 </ion-content>

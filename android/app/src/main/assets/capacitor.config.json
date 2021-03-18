@@ -7,7 +7,19 @@
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 0
+    },
+    "GoogleAuth": {
+      "scopes": [
+        "profile",
+        "email"
+      ],
+      "serverClientId": "102836115985-pp96575mnev1erb94l8vpvtugp2m4v1b.apps.googleusercontent.com",
+      "forceCodeForRefreshToken": true
     }
   },
-  "cordova": {}
+  "cordova": {},
+  "server": {
+    "url": "http://192.168.100.127:8100",
+    "cleartext": true
+  }
 }

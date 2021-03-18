@@ -1,1 +1,21 @@
-{}
+{
+  "appId": "io.ionic.starter",
+  "appName": "third-party-login",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "GoogleAuth": {
+      "scopes": [
+        "profile",
+        "email"
+      ],
+      "serverClientId": "102836115985-pp96575mnev1erb94l8vpvtugp2m4v1b.apps.googleusercontent.com",
+      "forceCodeForRefreshToken": true
+    }
+  },
+  "cordova": {}
+}

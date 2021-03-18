@@ -4,4 +4,6 @@
     <string name="title_activity_main">third-party-login</string>
     <string name="package_name">io.ionic.starter</string>
     <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="server_client_id">102836115985-pp96575mnev1erb94l8vpvtugp2m4v1b.apps.googleusercontent.com</string>
 </resources>
+
